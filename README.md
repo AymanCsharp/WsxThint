@@ -53,8 +53,8 @@ A powerful and comprehensive OSINT tool specifically designed for cybersecurity 
 1. **Clone the project**
 
 ```bash
-git clone <repository-url>
-cd Blarys
+git clone <https://github.com/AymanCsharp/WsxThint.git>
+cd WsxThint
 ```
 
 2. **Install requirements**
