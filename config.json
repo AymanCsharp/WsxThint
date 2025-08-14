@@ -1,0 +1,31 @@
+{
+    "api_keys": {
+        "shodan": "",
+        "hibp": "",
+        "virustotal": "",
+        "censys": "",
+        "securitytrails": ""
+    },
+    "settings": {
+        "timeout": 10,
+        "max_retries": 3,
+        "user_agent": "OSINT-Tool/1.0",
+        "enable_colors": true,
+        "save_results": true,
+        "output_format": "text"
+    },
+    "scanning": {
+        "common_ports": [21, 22, 23, 25, 53, 80, 110, 143, 443, 993, 995, 3306, 3389, 5432, 8080],
+        "scan_timeout": 1,
+        "max_concurrent_scans": 5
+    },
+    "dns": {
+        "resolvers": ["8.8.8.8", "1.1.1.1", "208.67.222.222"],
+        "record_types": ["A", "AAAA", "MX", "NS", "TXT", "SOA", "CNAME"]
+    },
+    "geolocation": {
+        "services": ["ip-api.com", "ipinfo.io", "freegeoip.app"],
+        "default_service": "ip-api.com"
+    }
+}
+
